@@ -1,10 +1,10 @@
 package clase_01;
 
-public class User {
+public class Owner {
     private String name;
     private String lastName;
 
-    public User(String name, String lastName) {
+    public Owner(String name, String lastName) {
         this.name = name;
         this.lastName = lastName;
     }
