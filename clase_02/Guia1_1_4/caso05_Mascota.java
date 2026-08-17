@@ -1,6 +1,6 @@
 package clase_02.Guia1_1_4;
 //Ejercicio 07
-public class caso05_Veterinaria {
+public class caso05_Mascota {
     private String name;
     private String tipe;
     private String owner;
@@ -9,7 +9,7 @@ public class caso05_Veterinaria {
     private String nextControl;
 
 
-    public caso05_Veterinaria(String name, String tipe, String owner, Integer age) {
+    public caso05_Mascota(String name, String tipe, String owner, Integer age) {
         this.name = name;
         this.tipe = tipe;
         this.owner = owner;

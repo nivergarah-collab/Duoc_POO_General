@@ -1,15 +1,15 @@
 package clase_02.Guia1_1_4;
 //ejercicio 04
-public class caso03_Banco {
+public class caso03_CuentaBancaria {
     private String full_name;
     private String rut;
     private Float balance;
     private String email;
 
-    public caso03_Banco(String full_name, String rut, Float balance, String email) {
+    public caso03_CuentaBancaria(String full_name, String rut, String email) {
         this.full_name = full_name;
         this.rut = rut;
-        this.balance = balance;
+        this.balance = 0.0f;
         this.email = email;
     }
 
