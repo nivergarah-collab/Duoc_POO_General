@@ -1,5 +1,6 @@
 package clase_03;
 //Directo guia 1.2.4
+//Clase guia 1.2.5
 public class Auto {
 
     private String modelo;
