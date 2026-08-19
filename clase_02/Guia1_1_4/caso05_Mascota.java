@@ -17,11 +17,6 @@ public class caso05_Mascota {
     }
 
 
-
-
-
-
-
     // getters y setters basicos. No se me ocurrio que crear aca.
 
     public String getName() {

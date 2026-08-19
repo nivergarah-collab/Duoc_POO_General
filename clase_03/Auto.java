@@ -19,7 +19,6 @@ public class Auto {
         this.tipo = tipo;
     }
 
-
     public String getModelo() {
         return modelo;
     }
