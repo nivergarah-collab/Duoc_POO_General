@@ -11,12 +11,8 @@ public class Main {
         Conductor miConductor = new Conductor("Juan", 22, "19874745-9", true, licencias );
         //Auto miAuto = new Auto("v3", "Toyota", 1998, 23.0, "familiar", miConductor);
         Reparto miRepartidor = new Reparto("v3", "Toyota", 1998, 23.0, "familiar", miConductor, true, 10 );
-        System.out.println(miRepartidor.toString());
+        System.out.println(miRepartidor);
 
-
-
-        Auto miRepartidor2 = new Reparto();
-        Reparto reparto = (Reparto)miRepartidor2;
 
     }
 
