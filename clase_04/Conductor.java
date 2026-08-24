@@ -1,4 +1,4 @@
-package clase_04.guia_1_2_5;
+package clase_04;
 import java.util.List;
 
 public class Conductor {
