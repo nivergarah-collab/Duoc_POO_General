@@ -24,10 +24,26 @@ public class VehiculoEmpresaReparto extends Auto {
 
     @Override
     public String toString() {
-        String texto =  super.toString()
-                +"En recorido: " + enReccorrido
-                +"Pedidos actuales: " + pedidos
-                +"---------------------------------------";
+        String texto = super.toString()
+                +"\nEn recorido: " + enReccorrido
+                +"\nPedidos actuales: " + pedidos
+                +"\n---------------------------------------";
         return texto;
+    }
+
+    public boolean isEnReccorrido() {
+        return enReccorrido;
+    }
+
+    public void setEnReccorrido(boolean enReccorrido) {
+        this.enReccorrido = enReccorrido;
+    }
+
+    public Integer getPedidos() {
+        return pedidos;
+    }
+
+    public void setPedidos(Integer pedidos) {
+        this.pedidos = pedidos;
     }
 }

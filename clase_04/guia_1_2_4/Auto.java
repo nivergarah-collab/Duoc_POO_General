@@ -62,11 +62,11 @@ public class Auto {
     public String toString() {
 
         String texto ="---------------------------------------"
-                +"Vehiculo modelo: " + modelo
-                +"Marca: " + marca
-                +"Anio: " + anio
-                +"Km: " + km
-                +"Tipo: " + tipo
+                +"\nVehiculo modelo: " + modelo
+                +"\nMarca: " + marca
+                +"\nAnio: " + anio
+                +"\nKm: " + km
+                +"\nTipo: " + tipo + "\n"
                 +"---------------------------------------";
         return texto;
     }
