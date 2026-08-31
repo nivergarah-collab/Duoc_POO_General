@@ -6,6 +6,8 @@ public class Main {
         curso.agregarEstudiante("Ana");
         curso.agregarEstudiante("Luis");
         curso.mostrarEstudiantes();
-        System.out.println(curso.obtenerEstudiante(5));
+        System.out.println(curso.obtenerEstudiante(5));}
+        //aca hago lal ista
+
     }
 }
